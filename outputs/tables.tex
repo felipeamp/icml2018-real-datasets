@@ -1,0 +1,57 @@
+\documentclass{article}
+
+\begin{document}
+
+\begin{table}
+\small
+\centering
+\begin{tabular}{c|c|c|c|c} 
+Dataset             &  SLIQ-Ext    & PC-ext       & HcC         & LCA        \\
+\hline
+{\tt Adult}         &  83.11       & {\bf 83.28}  & 83.25       & 83.25      \\
+{\tt Mushroom}      &  99.9        & {\bf 100 }   & {\bf 100 }  & {\bf 100}  \\
+{\tt KDD98}-9       &  37.92       & {\bf 39.88}  & 38.96       & 38.8       \\
+{\tt Nursery-ext}   &  94.13       & 95.83        & 95.83       & 95.83      \\
+{\tt Cars-ext}      &  91.23       & 96.46        & {\bf 96.5}  & {\bf 96.5} \\
+{\tt Contracep-ext} &  48.86       & 48.52        & {\bf 49.31} & 48.97      \\
+{\tt CoverType-ext} &  88.31       & 88.32        & {\bf 89.39} & 88.72      \\
+{\tt Poker}         &  {\bf 52.54} & 52.09        & 52.09       & 51.97      \\
+{\tt Shelter-15}    &  {\bf 55.08} & 53.82        & 53.59       & 53.6       \\
+{\tt S.F. Crime-15} &  {\bf 27.51} & 27.13        & 27.13       & 27.16      \\
+{\tt Phonemes}      &  36.11       &{\bf 37.95}   & 37.89       & 37.8       \\
+\hline
+Average (Sum)       &  64.97       & 65.75        & 65.81       & 65.69
+\end{tabular}
+\normalsize
+\caption{Average accuracy for decision trees with depth at most 16 using the {\bf Gini} impurity. The best accuracy for each dataset is bold-faced, even when multiple criteria have the same accuracy in the table because of rounding.}
+\label{tab:nominal-16-gini}
+\end{table}
+
+
+
+\begin{table}
+\small
+\centering
+\begin{tabular}{c|c|c|c|c} 
+Dataset             &  SLIQ-Ext    & PC-ext       & HcC         & LCA        \\
+\hline
+{\tt Adult}         &  83.6        & 83.74        & {\bf 83.74} & {\bf 83.74}\\
+{\tt Mushroom}      &  99.99       & {\bf 100 }   & {\bf 100 }  & {\bf 100}  \\
+{\tt KDD98}-9       &  36.6        & {\bf 38.78}  & 38.67       & 38.75      \\
+{\tt Nursery-ext}   &  94.13       & {\bf 95.88}  & {\bf 95.88} & {\bf 95.88}\\
+{\tt Cars-ext}      &  92.42       & 96.3         & 96.28       & {\bf 96.54}\\
+{\tt Contracep-ext} &  {\bf 48.99} & 48.53        & 48.76       & 48.93      \\
+{\tt CoverType-ext} &  88.26       & 88.35        & 88.83       & {\bf 88.98}\\
+{\tt Poker}         &  51.16       & 51.37        & 51.59       & {\bf 51.97}\\
+{\tt Shelter-15}    &  {\bf 55.12} & 54.18        & 54.2        & 54.17      \\
+{\tt S.F. Crime-15} &  {\bf 27.56} & 27.31        & 27.31       & 27.33      \\
+{\tt Phonemes}      &  35.27       & 37.25        & 36.91       & {\bf 37.48}\\
+\hline
+Average (Sum)       &  64.83       & 65.61        & 65.65       & 65.8
+\end{tabular}
+\caption{Average accuracy for decision trees with depth at most 16 using the {\bf Entropy} impurity. The best accuracy for each dataset is bold-faced, even when multiple criteria have the same accuracy in the table because of rounding.}
+\label{tab:nominal-16-entropy}
+\end{table}
+
+
+\end{document}

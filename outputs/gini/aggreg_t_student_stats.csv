@@ -1,0 +1,45 @@
+Dataset,Attribute,Criterion,Number of times is statistically better with missing values,Number of times is statistically better without missing values,Number of times has statistically larger number of nodes,Number of times is statistically worse with missing values,Number of times is statistically worse without missing values,Number of times has statistically smaller number of nodes
+Adult Census Income,None,Hypercube Cover,1,1,1,0,0,2
+Adult Census Income,None,Largest Class Alone,1,1,2,0,0,1
+Adult Census Income,None,PC-ext,1,1,0,0,0,3
+Adult Census Income,None,SLIQ-ext,0,0,3,3,3,0
+Cars with Aggreg,None,Hypercube Cover,1,1,0,0,0,1
+Cars with Aggreg,None,Largest Class Alone,1,1,0,0,0,1
+Cars with Aggreg,None,PC-ext,1,1,0,0,0,1
+Cars with Aggreg,None,SLIQ-ext,0,0,3,3,3,0
+Contraceptive with Aggreg,None,Hypercube Cover,2,3,1,0,0,0
+Contraceptive with Aggreg,None,Largest Class Alone,1,1,1,1,1,0
+Contraceptive with Aggreg,None,PC-ext,0,0,1,2,2,0
+Contraceptive with Aggreg,None,SLIQ-ext,0,0,0,0,1,3
+Cover Type with Aggreg,None,Hypercube Cover,3,3,3,0,0,0
+Cover Type with Aggreg,None,Largest Class Alone,2,2,2,1,1,1
+Cover Type with Aggreg,None,PC-ext,0,0,0,2,2,3
+Cover Type with Aggreg,None,SLIQ-ext,0,0,1,2,2,2
+KDD98 Multiclass 9,None,Hypercube Cover,1,0,1,1,1,2
+KDD98 Multiclass 9,None,Largest Class Alone,1,0,2,1,1,1
+KDD98 Multiclass 9,None,PC-ext,3,3,0,0,0,3
+KDD98 Multiclass 9,None,SLIQ-ext,0,0,3,3,1,0
+Mushroom,None,Hypercube Cover,1,1,0,0,0,1
+Mushroom,None,Largest Class Alone,1,1,0,0,0,1
+Mushroom,None,PC-ext,1,1,0,0,0,1
+Mushroom,None,SLIQ-ext,0,0,3,3,3,0
+Nursery with Aggreg,None,Hypercube Cover,1,1,0,0,0,1
+Nursery with Aggreg,None,Largest Class Alone,1,1,0,0,0,1
+Nursery with Aggreg,None,PC-ext,1,1,0,0,0,1
+Nursery with Aggreg,None,SLIQ-ext,0,0,3,3,3,0
+Poker Hand,None,Hypercube Cover,1,1,0,1,1,2
+Poker Hand,None,Largest Class Alone,0,0,2,3,3,1
+Poker Hand,None,PC-ext,1,1,0,1,1,2
+Poker Hand,None,SLIQ-ext,3,3,3,0,0,0
+Reuters Phonemes 10000 samples 15 classes,None,Hypercube Cover,1,1,2,0,0,0
+Reuters Phonemes 10000 samples 15 classes,None,Largest Class Alone,1,1,1,0,0,1
+Reuters Phonemes 10000 samples 15 classes,None,PC-ext,1,1,0,0,0,3
+Reuters Phonemes 10000 samples 15 classes,None,SLIQ-ext,0,0,1,3,3,0
+San Francisco Crime 15 classes,None,Hypercube Cover,0,0,3,2,2,0
+San Francisco Crime 15 classes,None,Largest Class Alone,2,2,1,1,1,2
+San Francisco Crime 15 classes,None,PC-ext,0,0,2,2,2,1
+San Francisco Crime 15 classes,None,SLIQ-ext,3,3,0,0,0,3
+Shelter Animal Outcomes 15 classes,None,Hypercube Cover,0,0,3,2,2,0
+Shelter Animal Outcomes 15 classes,None,Largest Class Alone,0,0,2,2,2,1
+Shelter Animal Outcomes 15 classes,None,PC-ext,2,2,1,1,1,2
+Shelter Animal Outcomes 15 classes,None,SLIQ-ext,3,3,0,0,0,3
