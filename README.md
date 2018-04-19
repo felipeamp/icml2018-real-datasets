@@ -6,7 +6,7 @@ Code used to run tests using real datasets.
 
 In order to run an experiment, first prepare an `experiment_config.json` file (use `experiment_config_example.json` as an example, removing comments). Then run
 
-```python3 run_experiments.py /path/to/experiment_config.json```.
+```python3 run_experiment.py /path/to/experiment_config.json```.
 
 The experiment results will appear on the output_folder set in the experiment_config file.
 
